@@ -2,7 +2,9 @@
 body {
     background-color: rgb(125, 248, 248);
     ;
-
+    img:hover{
+         color: blue;
+    }
 }
 a{
     color: red;
