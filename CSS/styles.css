@@ -1,44 +1,63 @@
 /* <hr size="2" color="red"> */
 body {
-    background-color: rgb(125, 248, 248);
-}
-    img:hover{
-         background-color: blue;
+    
+    background-image: url("bg1.jpg");
+    background-attachment: fixed;
+    background-position: right top;
     }
 
-a{
-    color: red;
+a {
+    color: rgb(157, 233, 127);
 }
-a:hover{
+
+img:hover {
+    background-color: blue;
+}
+
+a:hover {
     color: blue;
 }
 
-h1,
+h1{
+    color: #ff0cca;
+}
 h2 {
-    color: #05580c;
+    color: #ff0cca;
+    text-align: center;
+    font-size: 35px;
 }
 
 table {
-    color: #02000a;
+    font-size: 20px;
+    color: rgb(81, 252, 14);
 
 
 }
-p{
-    color: #02000a;
+ul{
+    list-style-type:square;
+    font-size: 20px;
+    color: rgb(81, 252, 14);
+    padding-left: 600px;
+    
+}
+
+p {
+    color: rgb(81, 252, 14);
     font-size: 18px;
 }
 
 hr {
-    border-color: rgb(27, 231, 37);
+    border-color: rgb(219, 228, 219);
     border-style: none;
-   
     border-top-style: dotted;
     border-width: 5px;
-    width: 100%;
+    width: 40%;
 }
-.contact:hover{
+
+.contact:hover {
     color: blue;
 }
-#heading{
+
+#heading {
     font-size: 50px;
 }
